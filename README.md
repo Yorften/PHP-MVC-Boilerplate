@@ -25,4 +25,4 @@ project/
 
 ## The logic behind the scenes
 
-When accessing a route for example `http://localhost:8080/routing/pages/home`, the core `App` looks divide it to 2 parts `pages` and `home`. For the first one it looks in the controllers directory if a controller named `pages_controller` exists (you can change the naming convention to align with your preferences) and if it does it looks for the method `home()` whithin it to. Executing it will render our view in `views` directory.
+When accessing a route for example `http://localhost:8080/routing/pages/home`, the core `App` divide the url's path variables to 2 parts in this case: `pages` and `home`. For the first one it looks in the controllers directory if a controller named `pages_controller` exists (you can change the naming convention to align with your preferences) and if it does it looks for the method `home()` whithin it to. Executing it will render our view in `views` directory.
