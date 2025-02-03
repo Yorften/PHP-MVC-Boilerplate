@@ -9,7 +9,7 @@ class AnswersDAO
 
     public function __construct()
     {
-        $this->conn = COnnection::getInstance()->getConnection();
+        $this->conn = Connection::getInstance()->getConnection();
         $this->answer = new Answer();
     }
 
